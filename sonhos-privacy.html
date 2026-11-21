@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sonhos: Significado e Diário - Política de Privacidade</title>
+<style>
+  body { font-family: system-ui, -apple-system, Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 32px 20px 64px;
+         color: #1b2230; line-height: 1.6; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 19px; margin-top: 32px; }
+  .muted { color: #6b7280; font-size: 14px; }
+  a { color: #0b5cad; }
+</style>
+</head>
+<body>
+<h1>Política de Privacidade do Sonhos: Significado e Diário</h1>
+<p class="muted">Última atualização: 21 de novembro de 2026 · <a href="sonhos-privacy-en.html">English</a></p>
+
+<p>Esta política explica como o app <strong>Sonhos: Significado e Diário</strong> ("o app"), da Materia Apps, trata dados.
+O app tem um dicionário de símbolos de sonhos que funciona offline, um diário de sonhos e, como extra opcional, uma
+interpretação curta feita por inteligência artificial (IA). O app não tem conta nem login. É só para maiores de 18 anos.</p>
+
+<h2>1. Seu diário fica no seu celular</h2>
+<p>Os sonhos que você escreve, os rascunhos e as interpretações salvas ficam guardados apenas no seu celular. Não há
+conta, sincronização ou cópia em servidor. Nós não recebemos o seu diário. Você pode apagar um sonho no app, ou tudo
+desinstalando o app. A exportação cria um arquivo no seu celular, que vai só para onde você escolher. O dicionário vem
+dentro do app e não envia o que você pesquisa.</p>
+
+<h2>2. Interpretação por IA (só quando você pede)</h2>
+<p>Quando você toca em "Interpretar", e só nesse momento, o app envia:</p>
+<ul>
+  <li>o texto daquele sonho e o idioma do app, para gerar a interpretação;</li>
+  <li>um identificador aleatório criado pelo app na instalação (não é o ID de publicidade nem o número do aparelho), para
+  contar o limite diário de interpretações;</li>
+  <li>um token do Google Play Integrity, para confirmar que o pedido vem do app original;</li>
+  <li>se você comprou o Premium, o token da compra, para confirmar a compra no Google Play.</li>
+</ul>
+<p>Esses dados vão para o nosso servidor na Cloudflare (Cloudflare Workers), que os repassa assim:</p>
+<ul>
+  <li><strong>Texto do sonho e idioma</strong> vão para a API Gemini do Google (plano pago), que gera a resposta. Não
+  enviamos ao Google nenhum identificador seu ou do aparelho. O nosso servidor não grava nem registra o texto do sonho.
+  O Google guarda os pedidos e as respostas por <strong>55 dias</strong> para detectar abuso, conforme a
+  <a href="https://ai.google.dev/gemini-api/docs/usage-policies">política de uso da API Gemini</a>, e pode ter revisão humana de conteúdo
+  sinalizado. No plano pago, o Google não usa esses dados para treinar modelos.</li>
+  <li><strong>Identificador aleatório</strong>: o servidor guarda só um resumo criptográfico (hash SHA-256) dele junto com
+  a contagem do dia. Essa contagem é apagada automaticamente em até 2 dias.</li>
+  <li><strong>Token do Play Integrity</strong> é verificado com o Google e não é guardado.</li>
+  <li><strong>Token da compra</strong> é verificado com o Google Play e não é guardado.</li>
+</ul>
+<p>A interpretação volta para o app e fica salva só no seu celular, junto com o sonho. Você pode salvar qualquer sonho sem
+pedir interpretação. Se o texto falar de suicídio, autolesão ou abuso, o app não interpreta e mostra contatos de apoio.</p>
+
+<h2>3. Denúncia de uma interpretação</h2>
+<p>Cada interpretação tem um botão para denunciar conteúdo ofensivo ou errado. Se você usar, o app envia o motivo
+escolhido, o idioma, o texto da interpretação e o identificador aleatório (não o texto do sonho). O identificador não é
+guardado com a denúncia. Guardamos a denúncia por
+90 dias para corrigir o serviço, e depois ela é apagada.</p>
+
+<h2>4. Anúncios (Google AdMob)</h2>
+<p>O app é gratuito e mostra anúncios do Google AdMob no dicionário e, se você escolher, um vídeo com recompensa para
+ganhar uma interpretação extra. Para mostrar e medir anúncios, o Google pode coletar dados como o ID de publicidade do
+aparelho, endereço IP, informações do aparelho e interações com anúncios. O Google trata esses dados conforme a
+<a href="https://policies.google.com/privacy">Política de Privacidade do Google</a> e
+<a href="https://policies.google.com/technologies/partner-sites">Como o Google usa informações de sites ou apps que usam seus serviços</a>.
+Os anúncios nunca recebem seus sonhos. Na UE, no Reino Unido e na Suíça o app pede seu consentimento antes, e você pode
+mudar em Ajustes &gt; Opções de privacidade dos anúncios. Você pode redefinir ou desativar o ID de publicidade nas
+configurações do Android. Bloqueamos anúncios de apostas e jogos de azar.</p>
+
+<h2>5. Compra do Premium</h2>
+<p>A compra "Premium vitalício" é feita pelo Google Play. Não recebemos dados do seu pagamento. Não há assinatura.</p>
+
+<h2>6. Só para maiores de 18 anos</h2>
+<p>O app é destinado a adultos (18+). Pedimos a confirmação de idade antes do primeiro uso da IA. Não coletamos de
+propósito dados de menores. Se você acha que um menor nos enviou dados, fale conosco pelo email abaixo.</p>
+
+<h2>7. Não é aconselhamento</h2>
+<p>Os significados do dicionário e as interpretações por IA são leituras culturais e populares, para reflexão e
+entretenimento. Não são aconselhamento médico, psicológico ou profissional e não preveem o futuro. Se você está em
+sofrimento, procure ajuda: no Brasil, ligue para o <strong>CVV 188</strong> (<a href="https://cvv.org.br/">cvv.org.br</a>);
+nos EUA, ligue ou mande mensagem para o <strong>988</strong> (<a href="https://988lifeline.org/">988lifeline.org</a>).
+Em emergência, ligue para o serviço de emergência local.</p>
+
+<h2>8. Seus direitos (LGPD, GDPR)</h2>
+<p>Não temos o seu diário. O texto do sonho não fica no nosso servidor, e a contagem diária é apagada em até 2 dias e não
+identifica você. Por isso, em geral não temos dados seus para acessar, corrigir ou apagar. Para dados tratados pelo Google
+(anúncios e API Gemini), use as opções do Google acima. Dúvidas ou pedidos: use o email abaixo.</p>
+
+<h2>9. Contato</h2>
+<p>Materia Apps. Email: <a href="mailto:julianocto93@gmail.com">julianocto93@gmail.com</a></p>
+
+<h2>10. Mudanças</h2>
+<p>Podemos atualizar esta política. A data no topo mostra a versão mais recente.</p>
+</body>
+</html>
